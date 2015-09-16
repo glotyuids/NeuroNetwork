@@ -1,0 +1,246 @@
+####################
+#                  #
+#     Neuronet     #
+#                  #
+####################
+
+Input  Layer: <layer.Layer object at 0xaf7d864c>
+   This layer:   <layer.Layer object at 0xaf7d864c>
+   Next layers:  [<layer.Layer object at 0xaf7d9d2c>]
+   Prev layers:  []
+   Neurons (8): 
+   >Alpha neuron : <neuron.Neuron object at 0xaf7d824c>
+     Is alpha:     True
+     Input:        0.0
+     Value:        1.0
+     Weights:      {<neuron.Neuron object at 0xaf65d36c>: 0.5, <neuron.Neuron object at 0xaf65d2cc>: 0.5, <neuron.Neuron object at 0xaf7d818c>: 0.5, <neuron.Neuron object at 0xaf65df4c>: 0.5, <neuron.Neuron object at 0xaf7d8d6c>: 0.5, <neuron.Neuron object at 0xaf7d878c>: 0.5, <neuron.Neuron object at 0xaf7d89cc>: 0.5, <neuron.Neuron object at 0xaf7d8dec>: 0.5}
+     Activation:   1
+     Alpha:        0.75
+   >Neuron 0: <neuron.Neuron object at 0xaf7d8d6c>
+     Is alpha:     False
+     Input:        -3.6666666666666665
+     Value:        -0.9999998844450363
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 1: <neuron.Neuron object at 0xaf65d2cc>
+     Is alpha:     False
+     Input:        -5.333333333333333
+     Value:        -0.9999999998529409
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 2: <neuron.Neuron object at 0xaf65d36c>
+     Is alpha:     False
+     Input:        -33.0
+     Value:        -1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 3: <neuron.Neuron object at 0xaf65df4c>
+     Is alpha:     False
+     Input:        -125.0
+     Value:        -1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 4: <neuron.Neuron object at 0xaf7d878c>
+     Is alpha:     False
+     Input:        -125.0
+     Value:        -1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 5: <neuron.Neuron object at 0xaf7d818c>
+     Is alpha:     False
+     Input:        -125.0
+     Value:        -1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 6: <neuron.Neuron object at 0xaf7d8dec>
+     Is alpha:     False
+     Input:        -47.0
+     Value:        -1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 7: <neuron.Neuron object at 0xaf7d89cc>
+     Is alpha:     False
+     Input:        4.333333333333333
+     Value:        0.9999995616229148
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.5
+
+
+Output Layer: <layer.Layer object at 0xaf65d16c>
+   This layer:   <layer.Layer object at 0xaf65d16c>
+   Next layers:  []
+   Prev layers:  [<layer.Layer object at 0xaf65dcac>]
+   Neurons (4): 
+   >Alpha neuron : <neuron.Neuron object at 0xaf65dd0c>
+     Is alpha:     True
+     Input:        0.0
+     Value:        1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d980c>: 0.5, <neuron.Neuron object at 0xaf7d908c>: 0.5, <neuron.Neuron object at 0xaf7d992c>: 0.5, <neuron.Neuron object at 0xaf7d9aec>: 0.5}
+     Activation:   1
+     Alpha:        0.75
+   >Neuron 0: <neuron.Neuron object at 0xaf7d980c>
+     Is alpha:     False
+     Input:        0.0
+     Value:        -0.9961530648112639
+     Weights:      {}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 1: <neuron.Neuron object at 0xaf7d992c>
+     Is alpha:     False
+     Input:        0.0
+     Value:        -0.9775416143064349
+     Weights:      {}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 2: <neuron.Neuron object at 0xaf7d9aec>
+     Is alpha:     False
+     Input:        0.0
+     Value:        0.9677184505904909
+     Weights:      {}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 3: <neuron.Neuron object at 0xaf7d908c>
+     Is alpha:     False
+     Input:        0.0
+     Value:        0.9102899753658589
+     Weights:      {}
+     Activation:   1
+     Alpha:        0.5
+
+
+Other  Layers:
+>Layer0: <layer.Layer object at 0xaf7d9d2c>
+   This layer:   <layer.Layer object at 0xaf7d9d2c>
+   Next layers:  [<layer.Layer object at 0xaf65df8c>]
+   Prev layers:  [<layer.Layer object at 0xaf7d864c>]
+   Neurons (2): 
+   >Alpha neuron : <neuron.Neuron object at 0xaf7d940c>
+     Is alpha:     True
+     Input:        0.0
+     Value:        1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d99cc>: 0.5, <neuron.Neuron object at 0xaf7d856c>: 0.5}
+     Activation:   1
+     Alpha:        0.75
+   >Neuron 0: <neuron.Neuron object at 0xaf7d99cc>
+     Is alpha:     False
+     Input:        0.0
+     Value:        -0.9999877116587258
+     Weights:      {<neuron.Neuron object at 0xaf7d8c6c>: -0.1388506440162114, <neuron.Neuron object at 0xaf7d96ec>: -0.10416435001429614}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 1: <neuron.Neuron object at 0xaf7d856c>
+     Is alpha:     False
+     Input:        0.0
+     Value:        -0.9999877116587258
+     Weights:      {<neuron.Neuron object at 0xaf7d8c6c>: 0.5376054897550235, <neuron.Neuron object at 0xaf7d96ec>: -0.8023726396673581}
+     Activation:   1
+     Alpha:        0.5
+
+>Layer1: <layer.Layer object at 0xaf65df8c>
+   This layer:   <layer.Layer object at 0xaf65df8c>
+   Next layers:  [<layer.Layer object at 0xaf65dcac>]
+   Prev layers:  [<layer.Layer object at 0xaf7d9d2c>]
+   Neurons (2): 
+   >Alpha neuron : <neuron.Neuron object at 0xaf65dfcc>
+     Is alpha:     True
+     Input:        0.0
+     Value:        1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d8c6c>: 0.5, <neuron.Neuron object at 0xaf7d96ec>: 0.5}
+     Activation:   1
+     Alpha:        0.75
+   >Neuron 0: <neuron.Neuron object at 0xaf7d96ec>
+     Is alpha:     False
+     Input:        0.0
+     Value:        0.9481410521868371
+     Weights:      {<neuron.Neuron object at 0xaf7d8aac>: 0.7670371389092101, <neuron.Neuron object at 0xaf7d974c>: -0.4642513631092291}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 1: <neuron.Neuron object at 0xaf7d8c6c>
+     Is alpha:     False
+     Input:        0.0
+     Value:        -0.6626367502928344
+     Weights:      {<neuron.Neuron object at 0xaf7d8aac>: -0.5011174646406655, <neuron.Neuron object at 0xaf7d974c>: 0.6308924286829083}
+     Activation:   1
+     Alpha:        0.5
+
+>Layer2: <layer.Layer object at 0xaf65dcac>
+   This layer:   <layer.Layer object at 0xaf65dcac>
+   Next layers:  [<layer.Layer object at 0xaf65d16c>]
+   Prev layers:  [<layer.Layer object at 0xaf65df8c>]
+   Neurons (2): 
+   >Alpha neuron : <neuron.Neuron object at 0xaf65d2ec>
+     Is alpha:     True
+     Input:        0.0
+     Value:        1.0
+     Weights:      {<neuron.Neuron object at 0xaf7d8aac>: 0.5, <neuron.Neuron object at 0xaf7d974c>: 0.5}
+     Activation:   1
+     Alpha:        0.75
+   >Neuron 0: <neuron.Neuron object at 0xaf7d974c>
+     Is alpha:     False
+     Input:        0.0
+     Value:        -0.9374349359094385
+     Weights:      {<neuron.Neuron object at 0xaf7d980c>: 0.9738252354685342, <neuron.Neuron object at 0xaf7d908c>: 0.1558430998834026, <neuron.Neuron object at 0xaf7d992c>: 0.16001767889505225, <neuron.Neuron object at 0xaf7d9aec>: -0.9219027341373458}
+     Activation:   1
+     Alpha:        0.5
+   >Neuron 1: <neuron.Neuron object at 0xaf7d8aac>
+     Is alpha:     False
+     Input:        0.0
+     Value:        0.9715176130588014
+     Weights:      {<neuron.Neuron object at 0xaf7d980c>: -0.6690844148265693, <neuron.Neuron object at 0xaf7d908c>: 0.9373990819495064, <neuron.Neuron object at 0xaf7d992c>: -0.9979029121441336, <neuron.Neuron object at 0xaf7d9aec>: 0.1680975289599187}
+     Activation:   1
+     Alpha:        0.5
+
+
+####################
+#                  #
+#      Field       #
+#                  #
+####################
+
+  1  1  1  1  7  1  1  1  1  1  1  1  1  1  7  1  1  1  1  1  1  1  1  1  1
+  1  1  1  1  1  1  1  7  1  1  1  1  7  1  1  1  1  1  1  7  1  1  1  1  1
+  1  1  1  7  1  1  1  7  1  1  1  1  7  7  1  1  1  1  1  1  1  1  1  7  7
+  1  1  1  1  1  1  1  7  7  1  7  1  7  7  1  1  1  7  1  1  1  1  1  1  1
+  1  1  7  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  7  1  1  7  1  1  1  1  1  1  1  1  1  1  1  1  1  7  1  1  1  1  1  1  7
+  1  1  7  1  1  1  1  7  1  1  1  7  1  1  7  1  1  1  1  1  1  1  1  1  1
+  7  7  1  7  1  1  7  1  1  1  1  1  1  7  1  7  1  1  7  7  1  1  1  1  1
+  1  7  7  1  1  1  1  1  1  7  1  1  1  1  1  1  1  1  7  7  1  1  1  7  7
+  1  1  7  7  1  7  1  1  7  7  1  1  1  1  1  1  1  1  1  7  1  1  1  1  1
+  1  1  1  1  1  1  7  1  1  1  1  1  7  1  7  1  1  1  7  1  1  1  1  1  1
+  1  1  1  1  1  1  1  1  1  1  1  1  1  7  1  1  1  1  1  1  1  1  1  1  1
+  1  1  1  1  1  1  1  1  1  1  1  1  7  1  1  1  7  7  1  1  1  1  1  1  1
+  1  1  1  1  1  1  1  1  1  1  7  7  1  1  1  1  1  1  1  7  1  1  1  1  1
+  1  1  1  7  1  1  1  7  1  1  1  7  1  1  7  7  1  1  1  1  1  7  1  7  1
+
+####################
+#                  #
+#      Person      #
+#                  #
+####################
+
+Person: <person.Person object at 0xafa5d86c>
+ max_heal = 100
+ dh       = -10
+ food_add = 20
+ add      = {0: -10, 1: 20, 2: -50, 3: -5, 4: 0, 5: 0, 6: -30, 7: -100, -1: -100}
+ history  = [(19, 11), [18, 12], [17, 13], [16, 14], [16, 14], [16, 14], [16, 14], [16, 14], [16, 14], [16, 14], [16, 14], [16, 14], [16, 14], [16, 14]]
+ d        = 2
+
+####################
+#                  #
+#     History      #
+#                  #
+####################
+
+Person score: 14
+Scores:       [18, 16, 12, 11, 16, 12, 11, 11, 19, 13, 14]
+Time:         81.8506698608

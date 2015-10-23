@@ -32,16 +32,16 @@ PERS2_POS = (8,33)
 # WAY_POS = (0,0)
 
 CELLS = {
-			NOWAY:	NOWAY_POS,
-			FLOOR:	FLOOR_POS,
-			FOOD:	FOOD_POS,
-			PERS:	PERS_POS,
-			GOOD:	GOOD_POS,
-			DEAD:	DEAD_POS,
-			WAY:	WAY_POS,
-			BAD1:	BAD1_POS,
-			PERS2:	PERS2_POS,
-		}
+            NOWAY:  NOWAY_POS,
+            FLOOR:  FLOOR_POS,
+            FOOD:   FOOD_POS,
+            PERS:   PERS_POS,
+            GOOD:   GOOD_POS,
+            DEAD:   DEAD_POS,
+            WAY:    WAY_POS,
+            BAD1:   BAD1_POS,
+            PERS2:  PERS2_POS,
+        }
 
 
 BASEF = 0
@@ -52,39 +52,39 @@ FIELD_SIZE = (25,15)
 
 """ GENETIC """
 COEFF = {
-			NOWAY:-30, 
-			FLOOR :0, 
-			FOOD:2, 
-			GOOD:-2, 
-			DEAD:0, 
-			WAY:0, 
-			BAD1:-5,
-			PERS2:-10,
-		} # coefficients
+            NOWAY:-30, 
+            FLOOR :0, 
+            FOOD:2, 
+            GOOD:-2, 
+            DEAD:0, 
+            WAY:0, 
+            BAD1:-5,
+            PERS2:-10,
+        } # coefficients
 
 DH_PERS2 = -100
 DH_FOOD = 20
 HEALTH = {
-			NOWAY:-100,
-			FLOOR :-10,
-			FOOD:DH_FOOD,
-			PERS:-50,
-			GOOD:-5, 
-			DEAD:0, 
-			WAY:0, 
-			BAD1:-30,
-			PERS2:DH_PERS2,
-		}
+            NOWAY:-100,
+            FLOOR :-10,
+            FOOD:DH_FOOD,
+            PERS:-50,
+            GOOD:-5, 
+            DEAD:0, 
+            WAY:0, 
+            BAD1:-30,
+            PERS2:DH_PERS2,
+        }
 # COEFF = {i:HEALTH[i]+abs(HEALTH[FOOD]) for i in HEALTH}
 
 BASE_WEIGHT = 10#0.3
 FILL = {
-			PERS2:	(0.2,1),
-			# # BAD1:	(0.00001,1),
-			# GOOD:	(0.3,1),
-			# FOOD:	(0.5,1),
-			FOOD:	(1,1)
-		}
+            PERS2:  (0.2,1),
+            # # BAD1:   (0.00001,1),
+            # GOOD: (0.3,1),
+            # FOOD: (0.5,1),
+            FOOD:   (1,1)
+        }
 
 DBG = 1
 TRANSITION= 0.5
@@ -128,7 +128,7 @@ DISTANCE = 2
 
 """ ANALYZE """
 
-AN_LOW = -10 	# low number for analyze input
-AN_HG = 10 		# high number for analyze input
-AN_ST = 1 		# delta for change input number
+AN_LOW = -10    # low number for analyze input
+AN_HG = 10      # high number for analyze input
+AN_ST = 1       # delta for change input number
 IN_NUM = 8
